@@ -11,7 +11,7 @@ function Rows(props) {
         <td>
           {item.name.first} {item.name.last}
         </td>
-        <td>{item.cell}</td>
+        <td>{item.phone}</td>
         <td>{item.email}</td>
         <td>{item.location.city}</td>
       </tr>
